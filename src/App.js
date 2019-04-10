@@ -28,7 +28,7 @@ class App extends Component {
     return (
       <BrowserRouter history={history}>
         <div className='wrapper'>
-          <Favicon url="http://oflisback.github.io/react-favicon/public/img/wikipedia.ico" />
+          <Favicon url="https://oflisback.github.io/react-favicon/public/img/wikipedia.ico" />
           <Head />
           <Container>
             <Row>
