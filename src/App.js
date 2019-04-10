@@ -3,7 +3,6 @@ import "./App.css";
 import { BrowserRouter, Route, Router, Link } from "react-router-dom";
 import { createBrowserHistory } from 'history';
 import Container from 'react-bootstrap/Container';
-// import Favicon from 'react-favicon';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Head from "./components/header";
@@ -28,7 +27,6 @@ class App extends Component {
     return (
       <BrowserRouter history={history}>
         <div className='wrapper'>
-          {/* <Favicon url="https://oflisback.github.io/react-favicon/public/img/wikipedia.ico" /> */}
           <Head />
           <Container>
             <Row>
