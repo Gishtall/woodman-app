@@ -1,0 +1,15 @@
+#foot{
+ background-color: #eef1f5;;
+ font-size: 15px;
+ display: flex;
+ flex-direction: column;
+ text-align: center; 
+}
+
+h6{
+ text-align: center;
+ background-color: #eef1f5;
+ flex-grow: 1; 
+ bottom: fixed;
+}
+

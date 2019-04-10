@@ -1,0 +1,5 @@
+#shadow{
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px #732372, 1px -1px #732372, -1px 1px #732372, -1px -1px #732372, 3px 3px 6px rgba(0,0,0,.5);
+}
