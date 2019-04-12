@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import YouTube from 'react-youtube';
 import { BrowserRouter, Route, Link } from "react-router-dom";
-// https://youtu.be/kh4S11uHwk4
 
-class VideoBoxOne extends React.Component {
+// https://youtu.be/nvga5aQBFkA
+class VideoBoxTwo extends React.Component {
   render() {
     
     const opts = {
@@ -13,11 +13,11 @@ class VideoBoxOne extends React.Component {
         autoplay: 1
       }
     };
-    
+
     return (
       <BrowserRouter>
         <YouTube
-          videoId={'kh4S11uHwk4'}
+          videoId={'nvga5aQBFkA'}
           opts={opts}
           onReady={this.videoOnReady}
         />
@@ -30,4 +30,4 @@ class VideoBoxOne extends React.Component {
   }
 }
 
-export default VideoBoxOne;
+export default VideoBoxTwo;
