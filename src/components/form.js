@@ -16,12 +16,13 @@ class FormEntry extends React.Component {
         this.state = { validated: false };
         this.handleShow = this.handleShow.bind(this);
         this.handleClose = this.handleClose.bind(this);
-
+        
     }
 
     handleShow() {
         if (this.state.validated) {
             this.setState({ show: true })
+            
         }
     }
 
@@ -31,12 +32,16 @@ class FormEntry extends React.Component {
             event.preventDefault();
             event.stopPropagation();
         }
-        this.setState({ validated: true });
+         this.setState({ validated: true });
+
+         
     }
     handleClose() {
         this.setState({ show: false });
     }
-
+    handleChange(event) {
+        this.setState({value: event.target.value.toValid()});
+      }
 
 
     render() {
@@ -176,6 +181,7 @@ class FormEntry extends React.Component {
                         </Modal.Footer>
                     </Modal>
                 </Form>
+                
             </div>
         );
     }
