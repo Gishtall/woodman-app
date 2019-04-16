@@ -20,8 +20,7 @@ class FormEntry extends React.Component {
     }
 
     handleShow(){
-        this.setState({ show: true })
-        console.log()      
+        this.setState({ show: true })     
     }
 
     handleSubmit = (event) => {
@@ -34,19 +33,13 @@ class FormEntry extends React.Component {
         } 
         else {
             this.handleShow();
-            console.log(form.checkValidity()) 
         }
     }
                     
-
-
-    
     handleClose() {
         this.setState({ show: false });
     }
     
-     
-
     render() {
         const { validated } = this.state;
         return (
