@@ -19,30 +19,33 @@ class FormEntry extends React.Component {
         
     }
 
-    handleShow() {
-        if (this.state.validated) {
-            this.setState({ show: true })
-            
-        }
+    handleShow(){
+        this.setState({ show: true })
+        console.log()      
     }
 
-    handleSubmit(event) {
+    handleSubmit = (event) => {
+        this.setState({ validated: true });
+
         const form = event.currentTarget;
-        if (form.checkValidity() === false) {
+        if (form.checkValidity()=== false) {
             event.preventDefault();
             event.stopPropagation();
+        } 
+        else {
+            this.handleShow();
+            console.log(form.checkValidity()) 
         }
-         this.setState({ validated: true });
-
-         
     }
+                    
+
+
+    
     handleClose() {
         this.setState({ show: false });
     }
-    handleChange(event) {
-        this.setState({value: event.target.value.toValid()});
-      }
-
+    
+     
 
     render() {
         const { validated } = this.state;
@@ -168,7 +171,7 @@ class FormEntry extends React.Component {
                             feedback="Вы должны согласиться с условиями"
                         />
                     </Form.Group>
-                    <Button type="submit" onClick={this.handleShow}>Оформить заказ</Button>
+                    <Button type="submit">Оформить заказ</Button>
                     <Modal show={this.state.show} onHide={this.handleClose}>
                         <Modal.Header closeButton>
                             <Modal.Title>Заказ оформлен</Modal.Title>
