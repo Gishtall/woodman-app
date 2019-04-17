@@ -7,8 +7,6 @@ import { Phone } from 'styled-icons/boxicons-regular/Phone';
 import { Mail } from 'styled-icons/feather/Mail';
 
 
-
-
 class ContInfo extends React.Component {
     render() {
         return (

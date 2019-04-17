@@ -22,7 +22,6 @@ import Footer from "./components/footer";
 const history = createBrowserHistory()
 
 
-
 class App extends Component {
   render() {
     return (

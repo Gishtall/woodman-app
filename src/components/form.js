@@ -177,7 +177,6 @@ class FormEntry extends React.Component {
                         </Modal.Footer>
                     </Modal>
                 </Form>
-                
             </div>
         );
     }
