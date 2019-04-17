@@ -55,7 +55,7 @@ class ControlledCarousel extends React.Component {
 
           <Carousel.Caption>
             <h3 id='shadow'>Это просто</h3>
-            <p id='shadow'>Подробные видеоинструкции в каждой покупке</p>
+            <p id='shadow'>Подробные видеоинструкции в каждом заказе</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>

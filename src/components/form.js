@@ -94,21 +94,21 @@ class FormEntry extends React.Component {
                             <Form.Label>Город</Form.Label>
                             <Form.Control type="text" placeholder="Минск" required />
                             <Form.Control.Feedback type="invalid">
-                                Пожалуйста, введите ваш город.
+                                Пожалуйста, введите Ваш город.
             </Form.Control.Feedback>
                         </Form.Group>
                         <Form.Group as={Col} md="4" controlId="validationCustom04">
                             <Form.Label>Адрес</Form.Label>
                             <Form.Control type="text" placeholder="Улица, Дом, Квартира." required />
                             <Form.Control.Feedback type="invalid">
-                                Пожалуйста, введите ваш адрес.
+                                Пожалуйста, введите Ваш адрес.
             </Form.Control.Feedback>
                         </Form.Group>
                         <Form.Group as={Col} md="4" controlId="validationCustom05">
                             <Form.Label>Почтовый индекс</Form.Label>
                             <Form.Control type="text" placeholder="220033" required />
                             <Form.Control.Feedback type="invalid">
-                                Пожалуйста, введите ваш почтовый индекс.
+                                Пожалуйста, введите Ваш почтовый индекс.
             </Form.Control.Feedback>
                         </Form.Group >
                         <Form.Group as={Col} md="4" controlId="validationCustomUserPhone">
@@ -124,7 +124,7 @@ class FormEntry extends React.Component {
                                     required
                                 />
                                 <Form.Control.Feedback type="invalid">
-                                    введите ваш номер телефона.
+                                    Введите Ваш номер телефона.
               </Form.Control.Feedback>
                             </InputGroup>
                         </Form.Group>
@@ -169,7 +169,7 @@ class FormEntry extends React.Component {
                         <Modal.Header closeButton>
                             <Modal.Title>Заказ оформлен</Modal.Title>
                         </Modal.Header>
-                        <Modal.Body>Наши операторы свяжуться с вами в ближайшее время.</Modal.Body>
+                        <Modal.Body>Наши операторы свяжутся с Вами в ближайшее время.</Modal.Body>
                         <Modal.Footer>
                             <Button variant="secondary" onClick={this.handleClose}>
                                 Закрыть
