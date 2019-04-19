@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import { Button } from "react-bootstrap";
 import Premium1 from "./../images/premium1.jpg";
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { BrowserRouter} from "react-router-dom";
 
 
 class Premium extends React.Component {

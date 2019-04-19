@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./header.css";
-import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown} from "react-bootstrap";
 import { Calendar } from 'styled-icons/boxicons-regular/Calendar';
 import { PhoneCall } from 'styled-icons/feather/PhoneCall';
 import woodmanLogo from "./../images/woodman_logo.png";

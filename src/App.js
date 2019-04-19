@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import { BrowserRouter, Route, Router, Link } from "react-router-dom";
+import { BrowserRouter, Route} from "react-router-dom";
 import { createBrowserHistory } from 'history';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';

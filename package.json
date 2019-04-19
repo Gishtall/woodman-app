@@ -5,7 +5,10 @@
   "homepage": "https://Gishtall.github.io/woodman-app",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "compression": "^1.7.4",
     "deploy-app": "^1.0.2",
+    "express": "^4.16.4",
+    "express-basic-auth": "^1.1.6",
     "gh-pages": "^2.0.1",
     "google-map-react": "^1.1.2",
     "google-maps-react": "^2.0.2",

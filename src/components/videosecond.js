@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import YouTube from 'react-youtube';
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { BrowserRouter} from "react-router-dom";
 
 // https://youtu.be/nvga5aQBFkA
 class VideoBoxTwo extends React.Component {

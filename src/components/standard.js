@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import { Button } from "react-bootstrap";
 import Standard1 from "./../images/standard1.jpg";
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { BrowserRouter} from "react-router-dom";
 
 
 class Standard extends React.Component {
