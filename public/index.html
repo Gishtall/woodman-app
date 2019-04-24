@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="theme-color" content="#000000" />
+  <meta name="theme-color" content="#000000"  />
   <meta http-equ=" Content-Security-Policy "
     content=" default-src 'none'; img-src 'self'; script-src 'self'; style-src 'unsafe-inline' " />
   <!--
@@ -13,7 +13,10 @@
     -->
   <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+  <link href='fonts/fonts.css' rel='stylesheet'/>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700&subset=cyrillic ' rel = ' stylesheet ' />  
+
+  
   <title>Woodman</title>
 </head>
 
@@ -21,17 +24,4 @@
   <div id="root"></div>
 </body>
 
-<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyA--8z5l0Uxrcex4ezGY975H5nFM9H4ehE",
-    authDomain: "wood-man-app.firebaseapp.com",
-    databaseURL: "https://wood-man-app.firebaseio.com",
-    projectId: "wood-man-app",
-    storageBucket: "wood-man-app.appspot.com",
-    messagingSenderId: "583887460491"
-  };
-  firebase.initializeApp(config);
-</script>
 </html>

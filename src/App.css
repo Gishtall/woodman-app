@@ -1,11 +1,12 @@
+
 .App {
     text-align: center;
     width: 100%;
   }
 html,body{
+    font-family: 'Roboto', sans-serif;
+    color:black;
     background-size: cover;
-    color: aliceblue;
-    font-family: "Audiowide";
     overflow-x: hidden;
     width: 100%;
     height: 100%;
